@@ -22,8 +22,14 @@ h1, h2, h3 {
 }
 
 body {
+    flex-direction: column;
     font-family: "Oswald", sans-serif;
     font-weight: 300;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
 }
 header {
     background-color: var(--cor-primaria);
@@ -153,3 +159,15 @@ nav a:last-child {
     
 
 }
+
+/*
+footer #footer-content {
+    display: flex;
+    color: white;
+}
+
+footer #footer-content ul {
+    width: 25%;
+}
+
+
