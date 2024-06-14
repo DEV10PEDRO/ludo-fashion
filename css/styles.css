@@ -160,14 +160,37 @@ nav a:last-child {
 
 }
 
-/*
-footer #footer-content {
+footer {
+    background-color: var(--cor-tres);
     display: flex;
+}
+
+
+footer .footer-content {
+    display: grid;
+    color: black;
+    grid-template-columns: repeat(4, 1fr);
+    text-decoration: none;
+ 
+  
+    
+}
+
+footer .footer-content .redes-socias img{
+    margin-right: 10px;
+}
+
+footer .footer-content ul > p{
+    margin-bottom: 40px;
+
+}
+
+footer.footer-content li {
+    margin: 10px 0;
+
+}
+
+footer .footer-content a{
     color: white;
+    text-decoration: none;
 }
-
-footer #footer-content ul {
-    width: 25%;
-}
-
-
