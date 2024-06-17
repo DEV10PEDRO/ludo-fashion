@@ -277,25 +277,90 @@ footer .container li {
 
 
 .form-container {
+    background-color: var(--cor-primaria);
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 6px;
     text-align: center;
     margin-block: 2rem;
     color: var(--preto)
+    
+
 }
-form .email-container h1 {
-    text-align: center;
-   
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+
 }
 
-form .email-container {
-    text-align: center;
+
+
+.email-container {
     margin-block: 2rem;
-    color: var(--preto)
+    color: var(--preto);
+
 }
+
+.email-container label {
+    left: 0;
+    
+    
+}
+
+form .email-container input {
+    flex-grow: 0.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+}
+
 
 form .senha-container {
     text-align: center;
     margin-block: 2rem;
     color: var(--preto)
+    
+    
+}
+
+form .senha-container input {
+    flex-grow: 0.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+.login {
+    background-color: black;
+    color: var(--branco);
+    width: 125px;
+    height: 45px;
+    list-style: none;
+    
+}
+
+div .nav-login a {
+    list-style: none;
+    color: var(--preto)
+
+}
+
+.redes-icon {
+   padding: 10px;
+   color: var(--preto);
+}
+
+.redes-icon a img{
+    margin-right: 10px;
+
+
 }
 
 
