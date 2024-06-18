@@ -245,17 +245,7 @@ footer .container .redes-socias img{
     font-size: 0.9rem;
     color: white;
 }
-/*
-#input_group button {
-    background-color: #7f37c9;
-    border: none;
-    color: var(--preto);
-    padding: 0px 1.25rem;
-    font-size: 1. 125rem;
-    height: 100%;
-    border-radius: 0px 4px 4px;
-}
-*/
+
 footer .container ul {
     width: 100%;
     margin-bottom: 200px;
@@ -285,240 +275,108 @@ footer .container li {
 
 }
 
-h1 {
+.login {
     background-color: var(--cor-primaria);
     align-items: center;
     width: 400px;
-    height: 500px;
+    height: 550px;
     margin: auto;
-    margin-top: 60px;
-    border-radius: 6px;
+    margin-top: 10rem;
+    border-radius: 10px;
     text-align: center;
-    margin-block: 2rem;
-    color: var(--preto);
-    
-    
-
 }
-form {
+
+.form-container {
     display: flex;
-    position: absolute;
     flex-direction: column;
-    padding-inline: 4rem;
     align-items: center;
-    gap: 2rem;
-    margin: 5rem;
+    padding: 3rem;
 }
 
-form .email-container, form .senha-container {
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+    
+
+.container {
     display: flex;
     flex-direction: column;
+    font-size: 20px;
+    width: 280px;
 
 }
 
-.email-container label, .senha-container label{
-    color: var(--preto);
-    margin-bottom: 0.4rem;
+.container label{
+    display: flex;
+    font-size: 23px;
+
 }
 
-.email-container input, .senha-container input {
+.container input {
     outline: none;
     border: 1px solid var(--preto);
-    padding: 1rem 1.5rem;
-    border-radius: 6px;
+    padding: 5px;
+    border-radius: 5px;
     font-size: 1rem;
     color: gray;
 }
 
-.senha-container input {
-    margin-bottom: 0.5rem;
 
-}
-
-.senha-container .nav-login {
+.nav-login a {
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
+    color: var(--preto);
 
 }
 
-.senha-container .nav-login a {
+.nav-login a {
     text-decoration: none;
     color: var(--preto);
 }
 
-.senha-container .nav-login a:hover {
+.nav-login a:hover {
     color: grey;
 }
 
-form input[type=submit] {
-    border: none;
+#entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    width: 50%;
+    margin-left: 25%;
+    height: 35%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
     background-color: var(--preto);
     color: var(--branco);
-    padding-block: 0.3rem;
-    width: 6rem;
-    margin: 0.1rem;
-    margin-bottom: 0.8rem;
-
-}
-
-.redes-icon a {
-    margin: 0.4rem;
-    flex-direction: column;
-    text-align: center;
-
-    
-}
-
-form .cadastrar {
-    display: flex;
-    flex-direction: column;
-    color: var(--preto);
     border: none;
-
-    
-}
-    
-
-/*
-form .email-container form .senha-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-container {
-    background-color: var(--cor-primaria);
-    width: 400px;
-    height: 500px;
-    margin: auto;
-    margin-top: 60px;
-    border-radius: 6px;
-    text-align: center;
-    margin-block: 2rem;
-    color: var(--preto)
-    
-
-}
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 4rem;
-
-}
-
-
-
-.email-container {
-    margin-block: 2rem;
-    color: var(--preto);
-
-}
-
-.email-container label {
-    left: 0;
-    
-    
-}
-
-form .email-container input {
-    flex-grow: 0.5rem;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    
-}
-
-
-form .senha-container {
-    text-align: center;
-    margin-block: 2rem;
-    color: var(--preto)
-    
-    
-}
-
-form .senha-container input {
-    flex-grow: 0.5rem;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-
-}
-.login {
-    background-color: black;
-    color: var(--branco);
-    width: 125px;
-    height: 45px;
-    list-style: none;
-    
-}
-
-div .nav-login a {
-    list-style: none;
-    color: var(--preto)
-
+    padding: 8px;
 }
 
 .redes-icon {
-   padding: 10px;
-   color: var(--preto);
-}
-
-.redes-icon a img{
-    margin-right: 10px;
-
-
-}
-
-
-
-
-/*
-
-.footer-subscribe {
+    display: flex;
     flex-direction: column;
-    grid-template-columns: none;
-    gap: 1.5rem;
-    
-}
-
-.footer-subscribe h3 {
-    grid-template-columns: none;
-    color: black;
-    
-}
-
-.footer-subscribe{
-    color: var(--branco);
-    color: black;
-
-    
-
-    
-}
-
-.input_group {
+    justify-content: center;
     align-items: center;
-    background-color: var(--branco);
-    border-radius: 4px;
+    margin-top: 2.3rem;
+    margin: 0.1rem;
 }
 
-.input_group input{
-    all: unset;
-    padding: 0.75rem;
-    width: 100%;
+
+.redes-icon a {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 1.3rem;
 }
 
-.input_group button {
-    background-color: #FDACE0;
-    border: none;
-    color: var(--cor-tres);
-    padding: 0px 1.25rem;
-    font-size: 1. 25rem;
-    height: 100%;
-    border-radius: 0px 4px 4px 0px;
-    cursor: pointer;
-}
+.redes a {
+    margin: 3px;
     
+
+}
+
