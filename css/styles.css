@@ -273,8 +273,117 @@ footer .container li {
     margin: 5px 0;
 
 }
+ div .form-container {
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+ }
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 
+h1 {
+    background-color: var(--cor-primaria);
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 6px;
+    text-align: center;
+    margin-block: 2rem;
+    color: var(--preto);
+    
+    
+
+}
+form {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    padding-inline: 4rem;
+    align-items: center;
+    gap: 2rem;
+    margin: 5rem;
+}
+
+form .email-container, form .senha-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.email-container label, .senha-container label{
+    color: var(--preto);
+    margin-bottom: 0.4rem;
+}
+
+.email-container input, .senha-container input {
+    outline: none;
+    border: 1px solid var(--preto);
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: gray;
+}
+
+.senha-container input {
+    margin-bottom: 0.5rem;
+
+}
+
+.senha-container .nav-login {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.senha-container .nav-login a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.senha-container .nav-login a:hover {
+    color: grey;
+}
+
+form input[type=submit] {
+    border: none;
+    background-color: var(--preto);
+    color: var(--branco);
+    padding-block: 0.3rem;
+    width: 6rem;
+    margin: 0.1rem;
+    margin-bottom: 0.8rem;
+
+}
+
+.redes-icon a {
+    margin: 0.4rem;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
+
+form .cadastrar {
+    display: flex;
+    flex-direction: column;
+    color: var(--preto);
+    border: none;
+
+    
+}
+    
+
+/*
+form .email-container form .senha-container {
+    display: flex;
+    flex-direction: column;
+}
 
 .form-container {
     background-color: var(--cor-primaria);
