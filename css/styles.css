@@ -108,6 +108,8 @@ nav a:last-child {
     color: black;
 }
 
+
+
 #banner {
     width: 100%;
     background-image: url(../imgs/rosa_mulheres.jpg);
@@ -160,6 +162,57 @@ nav a:last-child {
     
 
 }
+
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+
+}
+
+.card-form {
+    background-color: var(--cor-primaria);
+    align-items: center;
+    width: 650px;
+    height: 600px;
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.card-form h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.form-cadastro {
+    display: grid;
+    font-size: 20px;
+    width: 280px;
+
+}
+
+.form-cadastro label{
+    display: flex;
+    display: grid;
+    font-size: 1px;
+
+}
+
+.form-cadastro input {
+    outline: none;
+    border: 1px solid var(--preto);
+    padding: 0.7rem;
+    margin: 50px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: gray;
+
+}
+
 footer {
     display: grid;
     width: 100%;
@@ -268,6 +321,7 @@ footer .container li {
     justify-content: center;
     justify-content:space-around;
  }
+
 .form-container {
     display: flex;
     flex-direction: column;
@@ -317,7 +371,7 @@ footer .container li {
 .container input {
     outline: none;
     border: 1px solid var(--preto);
-    padding: 5px;
+    padding: 18px;
     border-radius: 5px;
     font-size: 1rem;
     color: gray;
