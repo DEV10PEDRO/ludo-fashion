@@ -163,14 +163,70 @@ nav a:last-child {
 
 }
 
-
+/*
 .cadastro {
-    display: flex;
+    display: grid;
     align-items: center;
     padding: 3rem;
 
 }
+*/
+.form-dados {
+    background-color: var(--cor-primaria);
+    align-items: center;
+    width: 650px;
+    height: 600px;
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 10rem;
+    border-radius: 10px;
+}
 
+.cadastro {
+    text-align: center;
+}
+
+.form {
+    padding: 18px;
+
+}
+
+.dados {
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.dados label {
+    display: inline-block;
+    margin-bottom: 4px;
+ 
+}
+
+.dados input {
+    display: block;
+    width: 45%;
+    border-radius: 4px;
+    padding: 4px;
+    border: 2px solid #dfdfdf;
+    
+    
+    
+}
+
+.form button {
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 20%;
+    border-radius: 8px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+/*
 .card-form {
     background-color: var(--cor-primaria);
     align-items: center;
@@ -182,21 +238,20 @@ nav a:last-child {
     text-align: center;
 }
 
-
 .card-form h1 {
     margin-bottom: 2rem;
     font-size: 2rem;
+    margin: 15px;
 }
 
 .form-cadastro {
-    display: grid;
-    font-size: 20px;
+    font-size: 5px;
     width: 280px;
+    grid-template-columns: repeat(2, 1fr);
 
 }
 
 .form-cadastro label{
-    display: flex;
     display: grid;
     font-size: 1px;
 
@@ -212,7 +267,7 @@ nav a:last-child {
     color: gray;
 
 }
-
+*/
 footer {
     display: grid;
     width: 100%;

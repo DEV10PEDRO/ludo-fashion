@@ -1,85 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <a href="#">LudoFashion</a>
-      <form action="" id="form-buscar">
-        <input type="search" name="buscar" id="buscar" placeholder="buscar" />
-        <button type="submit" id="btn-buscar">
-          <img src="imgs/search_icon.png" alt="" width="30px" />
-        </button>
-      </form>
-      <a href="#" class="icon-link">
-        <img src="imgs/icon_help.png" alt="" width="40px" />
-        cadastre-se</a
-      >
-      <a href="#" class="icon-link">
-        <img src="imgs/icon_person.png" alt="" width="40px" />
-        duvidas</a
-      >
-    </header>
-    <section class="cadastro">
-      <div class="card-form">
-        <h1>Cadastrar</h1>
 
-        <form>
-          <div class="card-input">
-            <div class="form-cadastro">
-              <div class="dados">
-                <label for="none">Nome:</label>
-                <input type="text" name="" id="none" value="Bertano" /> 
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
 
-              <div class="dados">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" />
-              </div>
-
-              <div class="dados">
-                <label for="num">CPF:</label>
-               <input type="number" name="numero" id="num" />
-              </div>
-              
-            </div>
-
-            <div class="form-cadastro">
-              <div class="dados">
-                <label for="nome">Nome de usuário:</label>
-                <input type="text" name="" id="none" value="Bertano" />
-              </div>
-
-              <div class="dados">
-                <label for="num">Numero de telefone:</label>
-                <input type="number" name="numero" id="num" />
-              </div>
-
-              <div class="dados">
-                <label for="data">Data de nascimento:</label>
-                <input type="date" name="data" id="data" />
-              </div>
-
-            </div>
-
+<body>
+  <header>
+    <a href="#">LudoFashion</a>
+    <form action="" id="form-buscar">
+      <input type="search" name="buscar" id="buscar" placeholder="buscar" />
+      <button type="submit" id="btn-buscar">
+        <img src="imgs/search_icon.png" alt="" width="30px" />
+      </button>
+    </form>
+    <a href="#" class="icon-link">
+      <img src="imgs/icon_help.png" alt="" width="40px" />
+      cadastre-se</a>
+    <a href="#" class="icon-link">
+      <img src="imgs/icon_person.png" alt="" width="40px" />
+      duvidas</a>
+  </header>
+    <div class="form-dados">
+      <section class="cadastro">
+      <h1>Cadastrar</h1>
+      </section>
+      <form class="form">
+        <div class="dados">
+            <label for="none">Nome:</label>
+            <input type="text" name="" id="none" value="Bertano" />
           </div>
-          <button>Cadastrar</button>
 
-          <a href="#">Já tem uma conta cadastrada?</a>
+          <div class="dados">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
 
-          <p>Ou inscreva-se usando</p>
+          <div class="dados">
+            <label for="num">CPF:</label>
+            <input type="number" name="numero" id="num" />
+          </div>
 
-          <div class="redes">
-            <a href="#"><img src="imgs/google.png" width="30px" alt="" /></a>
-            <a href="#"><img src="imgs/facebook.png" width="30px" alt="" /></a>
+        <div class="form-cadastro">
+          <div class="dados">
+            <label for="nome">Nome de usuário:</label>
+            <input type="text" name="" id="none" value="Bertano" />
+          </div>
+
+          <div>
+            <label for="num">Numero de telefone:</label>
+            <input type="number" name="numero" id="num" />
+          </div>
+
+          <div>
+            <label for="data">Data de nascimento:</label>
+            <input type="date" name="data" id="data" />
           </div>
         </form>
-        
-      </div>
-    </section>
-  </body>
+  
+    <button type="submit">Cadastrar</button>
+
+    <a href="#">Já tem uma conta cadastrada?</a>
+
+    <p>Ou inscreva-se usando</p>
+
+    <div class="redes">
+      <a href="#"><img src="imgs/google.png" width="30px" alt="" /></a>
+      <a href="#"><img src="imgs/facebook.png" width="30px" alt="" /></a>
+    </div>
+    </form>
+
+    </div>
+  </section>
+</body>
+
 </html>
