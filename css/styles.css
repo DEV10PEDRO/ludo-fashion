@@ -173,7 +173,6 @@ nav a:last-child {
 */
 .form-dados {
     background-color: var(--cor-primaria);
-    align-items: center;
     width: 650px;
     height: 600px;
     margin: auto;
@@ -184,11 +183,15 @@ nav a:last-child {
 }
 
 .cadastro {
-    text-align: center;
+    align-items: center;
+    
+    
 }
 
 .form {
     padding: 18px;
+   
+    
 
 }
 
@@ -268,110 +271,9 @@ nav a:last-child {
 
 }
 */
-footer {
-    display: grid;
-    width: 100%;
-    background-color: var(--branco)
-    
 
 
-}
-
-footer .container {
-    display: grid;
-    display: flex;
-    grid-template-columns: repeat(5, 1fr);
-    padding: 1rem 1.5rem;
-
-}
-
-footer .container h3{
-
-    margin-bottom: 16px;
-    font-weight: 600px;
-    color: var(--preto)
-
-}
-
-footer .container a{
-    color: rgb(57, 49, 49);
-    flex-direction: column;
-    grid-template-columns: none;
-    text-decoration: none;
-    
-}
-
-footer .container p {
-    color: black
-}
-
-
-footer .container .redes-socias img{
-    margin-right: 10px;
-    
-    
-}
-
-
-.footer_subscribe {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-
-
-.input_group {
-    display: flex;
-    align-items: center;
-}
-
-#input_group input{
-    all:unset;
-    padding: 0.75rem;
-    width: 100%;
-    
-}
-
-.input_group button {
-    border: none;
-    color: var(--preto);
-    padding: 0px 1.25rem;
-    font-size: 1. 125rem;
-    height: 100%;
-    border-radius: 0px 4px 4px 0px;
-    cursor: pointer;
-    
-}
-
-    
-
-.footer_copyright {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    font-size: 0.9rem;
-    color: white;
-}
-
-footer .container ul {
-    width: 100%;
-    margin-bottom: 200px;
-    list-style: none;
-    
-
-}
-
-footer .container ul > p{
-    margin-bottom: 20px;
-
-}
-
-footer .container li {
-    margin: 5px 0;
-
-}
- div .form-container {
+ .form-container {
     display: flex;
     justify-content: center;
     justify-content:space-around;
@@ -486,6 +388,108 @@ footer .container li {
 .redes a {
     margin: 3px;
     
+
+}
+
+
+.card-footer {
+    display: flex;
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 1rem 1.5rem;
+    
+
+}
+
+.card-footer h3{
+    margin-bottom: 16px;
+    font-weight: 600px;
+    color: var(--preto)
+
+}
+
+.card-footer a {
+    color: rgb(57, 49, 49);
+    flex-direction: column;
+    grid-template-columns: none;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.card-footer p {
+    color: black
+}
+
+
+.card-footer .redes-socias img{
+    margin-right: 10px;
+    
+    
+}
+
+
+.footer_subscribe {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+
+.input_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.input_group {
+    all:unset;
+    padding: 0.75rem;
+    width: 100%;
+    
+}
+
+#div-img {
+    color: var(--preto);
+    width: 25px;
+    height: 10px;
+    padding-left: 4px;
+    position: relative;
+    right: 10%;
+
+    
+}
+
+    
+
+.footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.card-footer ul {
+    width: 100%;
+    margin-bottom: 200px;
+    list-style: none;
+    
+
+}
+
+.card-footer ul > p{
+    margin-bottom: 20px;
+
+}
+
+.card-footer li {
+    margin: 5px 0;
 
 }
 
