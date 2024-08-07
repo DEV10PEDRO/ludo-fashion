@@ -167,10 +167,8 @@ nav a:last-child {
 .form-dados {
     background-color: var(--cor-primaria);
     width: 650px;
-    height: 600px;
+    height: 580px;
     margin: auto;
-    max-width: 600px;
-    width: 100%;
     margin-top: 10rem;
     border-radius: 10px;
 }
@@ -181,28 +179,28 @@ nav a:last-child {
     padding: 18px;
 
 }
-.form-dados h1 {
-    text-align: center;
-}
+
+
 
 .form {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);  
+    display: flex;
+    flex-direction: column;
+    
     
 }
 
 
 .dados {
-    margin-bottom: 60px;
-    padding-bottom: 16px;
-    text-align: center; 
-   
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+    
 }
 
 .dados label {
-    display: grid;
-    margin-bottom: 4px;
- 
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .dados input{
@@ -212,23 +210,24 @@ nav a:last-child {
     border: 2px solid #dfdfdf; 
 }
 
-.dados #input {
-    display: grid;
-    width: 45%;
+input[type="submit"] {
+    width: 20%;
     border-radius: 4px;
     padding: 4px;
     border: 2px solid #dfdfdf; 
     
 }
 
+
 .form button {
     display: grid;
     background-color: var(--preto);
     color: var(--branco);
     width: 50%;
-    height: 50%;
+    height: 35%;
+    padding-bottom: 50px;
     border-radius: 4px;
-    padding: 15px;
+    padding: 10px;
     border: 0;
     font-size: 16px;
     cursor: pointer;
@@ -339,6 +338,34 @@ nav a:last-child {
     margin: 3px;
     
 
+}
+
+/* categorias */
+.categoria {
+    background-color: var(--cor-primaria);
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: 10px;
+}
+
+.categoria ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    gap: 3rem;
+    padding: 1rem;
+    
+    
+}
+
+.categoria ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 
